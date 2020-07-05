@@ -1,0 +1,16 @@
+{
+  "name": "My-Bank-Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "nodemon": "^2.0.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
